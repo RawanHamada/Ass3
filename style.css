@@ -1,0 +1,132 @@
+*{
+    font-family: "Ubuntu", sans-serif;
+}
+body{
+    margin: 10px 50px;
+}
+header{
+    background-color: rgb(49, 44, 44);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 2px;
+}
+header>h1{
+    color: #fff;
+}
+header>p{
+    color: gray;
+}
+header nav ul{
+    margin-top: 30px;
+}
+header nav ul li{
+    color: #fff;
+    display: inline;
+    padding: 0 10px;
+}
+header nav ul li:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+/* start sction about me */
+#about{
+    border: 1px solid #ddd;
+    margin: 30px 0;
+    padding: 15px;
+    height: 350px;
+}
+#about img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 520px;
+    margin-top: 40px;
+}
+/* end sction about me */
+
+/* start sction skill */
+#skill{
+    background-image: url(./imgs/skill.jpg);
+    height: 200px;
+    border-radius: 5px;
+}
+#skill h2{
+    color: #fff;
+    padding: 10px;
+}
+#skill #skill-type{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    /* opacity: 0.7 ; */
+}
+#skill span{
+    background-color: rgb(143, 143, 209);
+    color: #fff;
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    /* position: relative;
+    z-index: 1; */
+}
+/* end section skill */
+
+/* start section project */
+#project{
+    /* position: relative; */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 30px 0;
+    padding: 10px;
+}
+#project .pr-ex{
+    background-color: rgb(119, 119, 209);
+    max-width: 200px;
+    padding: 1px 10px 30px 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+#project #pr2{
+    position: absolute;
+    top: 320px;
+    left: 100px;
+    padding: 0px 10px 30px 10px;
+    max-width: 200px;
+    background-color: violet;
+    border-radius: 10px;
+}
+#project #blog{
+    background-color: cadetblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1px 20px 50px 20px;
+    width: 1200px;
+    margin-left: 30px;
+}
+/* end section project */
+
+/* start go to top */
+
+div.go-top{
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+    background-color: rgb(148, 87, 179);
+    font-size: 20px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    line-height: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+}
+/* end go to top */
+
